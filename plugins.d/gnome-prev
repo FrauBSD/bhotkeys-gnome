@@ -1,0 +1,13 @@
+id gnome-prev
+group x11/bhotkeys-gnome
+label Previous track
+chord XF86AudioPrev
+enabled 0
+enabled 1 gnome
+session 0
+session 1 gnome
+repeat 0
+greeter 0
+listen 0
+desc Skip to the previous track. GNOME owns the key.
+# gsettings org.gnome.settings-daemon.plugins.media-keys previous-static XF86AudioPrev

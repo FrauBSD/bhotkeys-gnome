@@ -1,0 +1,13 @@
+id gnome-notify
+group x11/bhotkeys-gnome
+label Notification
+chord Super+n
+enabled 0
+enabled 1 gnome
+session 0
+session 1 gnome
+repeat 0
+greeter 0
+listen 0
+desc Focus the active notification. GNOME owns the key.
+# gsettings org.gnome.shell.keybindings focus-active-notification <Super>n

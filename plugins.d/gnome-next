@@ -1,0 +1,13 @@
+id gnome-next
+group x11/bhotkeys-gnome
+label Next track
+chord XF86AudioNext
+enabled 0
+enabled 1 gnome
+session 0
+session 1 gnome
+repeat 0
+greeter 0
+listen 0
+desc Skip to the next track. GNOME owns the key.
+# gsettings org.gnome.settings-daemon.plugins.media-keys next-static XF86AudioNext

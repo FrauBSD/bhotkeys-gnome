@@ -1,0 +1,13 @@
+id gnome-logout
+group x11/bhotkeys-gnome
+label Log out
+chord Ctrl+Alt+Delete
+enabled 0
+enabled 1 gnome
+session 0
+session 1 gnome
+repeat 0
+greeter 0
+listen 0
+desc Open the log out dialog. GNOME owns the key.
+# gsettings org.gnome.settings-daemon.plugins.media-keys logout <Control><Alt>Delete

@@ -1,0 +1,13 @@
+id gnome-lock
+group x11/bhotkeys-gnome
+label Lock screen
+chord Super+l
+enabled 0
+enabled 1 gnome
+session 0
+session 1 gnome
+repeat 0
+greeter 0
+listen 0
+desc Lock the screen. GNOME owns the key.
+# gsettings org.gnome.settings-daemon.plugins.media-keys screensaver <Super>l

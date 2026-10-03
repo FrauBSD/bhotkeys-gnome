@@ -1,0 +1,13 @@
+id gnome-minimize
+group x11/bhotkeys-gnome
+label Minimize
+chord Super+h
+enabled 0
+enabled 1 gnome
+session 0
+session 1 gnome
+repeat 0
+greeter 0
+listen 0
+desc Minimize the focused window. GNOME owns the key.
+# gsettings org.gnome.desktop.wm.keybindings minimize <Super>h

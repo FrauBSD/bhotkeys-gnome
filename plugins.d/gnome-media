@@ -1,0 +1,13 @@
+id gnome-media
+group x11/bhotkeys-gnome
+label Media
+chord XF86AudioMedia
+enabled 0
+enabled 1 gnome
+session 0
+session 1 gnome
+repeat 0
+greeter 0
+listen 0
+desc Launch the media player. GNOME owns the key.
+# gsettings org.gnome.settings-daemon.plugins.media-keys media-static XF86AudioMedia

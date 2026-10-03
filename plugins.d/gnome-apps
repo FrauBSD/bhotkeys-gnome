@@ -1,0 +1,13 @@
+id gnome-apps
+group x11/bhotkeys-gnome
+label Show applications
+chord Super+a
+enabled 0
+enabled 1 gnome
+session 0
+session 1 gnome
+repeat 0
+greeter 0
+listen 0
+desc Open the application grid. GNOME owns the key.
+# gsettings org.gnome.shell.keybindings toggle-application-view <Super>a

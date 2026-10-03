@@ -1,0 +1,13 @@
+id gnome-shot-region
+group x11/bhotkeys-gnome
+label Region screenshot
+chord Shift+Print
+enabled 0
+enabled 1 gnome
+session 0
+session 1 gnome
+repeat 0
+greeter 0
+listen 0
+desc Screenshot a region. GNOME owns the key.
+# gsettings org.gnome.shell.keybindings screenshot <Shift>Print

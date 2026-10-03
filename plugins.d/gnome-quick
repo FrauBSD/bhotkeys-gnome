@@ -1,0 +1,13 @@
+id gnome-quick
+group x11/bhotkeys-gnome
+label Quick settings
+chord Super+s
+enabled 0
+enabled 1 gnome
+session 0
+session 1 gnome
+repeat 0
+greeter 0
+listen 0
+desc Open quick settings. GNOME owns the key.
+# gsettings org.gnome.shell.keybindings toggle-quick-settings <Super>s

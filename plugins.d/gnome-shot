@@ -1,0 +1,13 @@
+id gnome-shot
+group x11/bhotkeys-gnome
+label Screenshot
+chord Print
+enabled 0
+enabled 1 gnome
+session 0
+session 1 gnome
+repeat 0
+greeter 0
+listen 0
+desc Open the screenshot window. GNOME owns the key.
+# gsettings org.gnome.shell.keybindings show-screenshot-ui Print

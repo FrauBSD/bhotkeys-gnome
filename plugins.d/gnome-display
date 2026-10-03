@@ -1,0 +1,13 @@
+id gnome-display
+group x11/bhotkeys-gnome
+label Switch display
+chord Super+p
+enabled 0
+enabled 1 gnome
+session 0
+session 1 gnome
+repeat 0
+greeter 0
+listen 0
+desc Cycle display layouts. GNOME owns the key.
+# gsettings org.gnome.mutter.keybindings switch-monitor <Super>p

@@ -1,0 +1,13 @@
+id gnome-vol-up
+group x11/bhotkeys-gnome
+label Volume up
+chord XF86AudioRaiseVolume
+enabled 0
+enabled 1 gnome
+session 0
+session 1 gnome
+repeat 0
+greeter 0
+listen 0
+desc Raise the volume. GNOME owns the key.
+# gsettings org.gnome.settings-daemon.plugins.media-keys volume-up-static XF86AudioRaiseVolume

@@ -1,0 +1,13 @@
+id gnome-shot-window
+group x11/bhotkeys-gnome
+label Window screenshot
+chord Alt+Print
+enabled 0
+enabled 1 gnome
+session 0
+session 1 gnome
+repeat 0
+greeter 0
+listen 0
+desc Screenshot the focused window. GNOME owns the key.
+# gsettings org.gnome.shell.keybindings screenshot-window <Alt>Print

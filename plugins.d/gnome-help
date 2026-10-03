@@ -1,0 +1,13 @@
+id gnome-help
+group x11/bhotkeys-gnome
+label Help
+chord Super+F1
+enabled 0
+enabled 1 gnome
+session 0
+session 1 gnome
+repeat 0
+greeter 0
+listen 0
+desc Open help. GNOME owns the key.
+# gsettings org.gnome.settings-daemon.plugins.media-keys help <Super>F1

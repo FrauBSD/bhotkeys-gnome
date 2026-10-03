@@ -1,0 +1,13 @@
+id gnome-vol-down
+group x11/bhotkeys-gnome
+label Volume down
+chord XF86AudioLowerVolume
+enabled 0
+enabled 1 gnome
+session 0
+session 1 gnome
+repeat 0
+greeter 0
+listen 0
+desc Lower the volume. GNOME owns the key.
+# gsettings org.gnome.settings-daemon.plugins.media-keys volume-down-static XF86AudioLowerVolume

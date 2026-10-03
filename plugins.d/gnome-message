@@ -1,0 +1,13 @@
+id gnome-message
+group x11/bhotkeys-gnome
+label Message list
+chord Super+m
+enabled 0
+enabled 1 gnome
+session 0
+session 1 gnome
+repeat 0
+greeter 0
+listen 0
+desc Open the message list. GNOME owns the key.
+# gsettings org.gnome.shell.keybindings toggle-message-tray <Super>m

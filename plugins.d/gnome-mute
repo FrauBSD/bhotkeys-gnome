@@ -1,0 +1,13 @@
+id gnome-mute
+group x11/bhotkeys-gnome
+label Mute
+chord XF86AudioMute
+enabled 0
+enabled 1 gnome
+session 0
+session 1 gnome
+repeat 0
+greeter 0
+listen 0
+desc Mute or unmute. GNOME owns the key.
+# gsettings org.gnome.settings-daemon.plugins.media-keys volume-mute-static XF86AudioMute

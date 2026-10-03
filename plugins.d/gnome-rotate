@@ -1,0 +1,13 @@
+id gnome-rotate
+group x11/bhotkeys-gnome
+label Rotation lock
+chord Super+o
+enabled 0
+enabled 1 gnome
+session 0
+session 1 gnome
+repeat 0
+greeter 0
+listen 0
+desc Toggle rotation lock. GNOME owns the key.
+# gsettings org.gnome.settings-daemon.plugins.media-keys rotate-video-lock-static <Super>o

@@ -1,0 +1,13 @@
+id gnome-run
+group x11/bhotkeys-gnome
+label Run command
+chord Alt+F2
+enabled 0
+enabled 1 gnome
+session 0
+session 1 gnome
+repeat 0
+greeter 0
+listen 0
+desc Open the run dialog. GNOME owns the key.
+# gsettings org.gnome.desktop.wm.keybindings panel-run-dialog <Alt>F2
