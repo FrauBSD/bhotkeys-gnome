@@ -1,3 +1,5 @@
+[//]: # ($FrauBSD: bhotkeys-gnome/CHANGELOG.md 2026-10-03 21:37:22 -0700 Devin Teske $)
+
 # Changelog
 
 Newest first. Each section is a git tag; the bullets are what landed

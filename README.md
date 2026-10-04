@@ -1,3 +1,5 @@
+[//]: # ($FrauBSD: bhotkeys-gnome/README.md 2026-10-03 21:37:22 -0700 Devin Teske $)
+
 # bhotkeys-gnome
 
 GNOME's stock shortcuts as rows in the bhotkeys chord list.
